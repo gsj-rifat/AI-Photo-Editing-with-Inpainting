@@ -8,7 +8,7 @@ This project demonstrates a modern AI-powered web app that allows users to seaml
 - Powered by state-of-the-art models: `facebook/sam-vit-base` and `diffusers/stable-diffusion-xl-1.0-inpainting-0.1`.
 - Runs efficiently with mixed precision and model offloading.
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 1. Python 
 2. HuggingFace Transformers & Diffusers
 3. PyTorch
@@ -17,11 +17,12 @@ This project demonstrates a modern AI-powered web app that allows users to seaml
 6. Stable Diffusion XL Inpainting
 
 
-✨ Workflow
+## ✨ Workflow
 1. Select points on the subject.
-
 2. Generate a binary mask using SAM.
-
 3. Provide a text prompt for a new background (e.g., "sunset beach").
-
 4. Inpaint and visualize the result.
+
+## Acknowledgements
+This project was completed as part of the Udacity Generative AI Nanodegree Program.
+
